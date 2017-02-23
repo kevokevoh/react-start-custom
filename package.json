@@ -4,7 +4,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "main.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "~15.4.1",
+    "react-dom": "~15.4.1"
+  },
   "devDependencies": {
     "babel-core": "~6.18.2",
     "babel-loader": "~6.2.8",
@@ -13,8 +16,6 @@
     "css-loader": "~0.26.0",
     "extract-text-webpack-plugin": "~1.0.1",
     "node-sass": "~3.13.0",
-    "react": "~15.4.1",
-    "react-dom": "~15.4.1",
     "react-hot-loader": "~3.0.0-beta.6",
     "sass-loader": "~4.0.2",
     "style-loader": "~0.13.1",
@@ -23,19 +24,11 @@
   },
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js -p",
-    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors --inline",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors --inline"
   },
   "keywords": [
-    "react",
-    "babel",
-    "es2015",
-    "webpack",
-    "sass",
-    "es6",
-    "hello world kit",
-    "kit"
+    "react"
   ],
-  "author": "srini.cug@gmail.com",
+  "author": "kevnmacharia@gmail.com",
   "license": "MIT"
 }
