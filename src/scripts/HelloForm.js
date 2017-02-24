@@ -1,6 +1,6 @@
 import HelloSayer from './HelloSayer';
 import React from 'react';
-import style from '../styles/helloform.scss';
+require('../styles/helloform.scss');
 
 class HelloForm extends React.Component {
     constructor(props) {

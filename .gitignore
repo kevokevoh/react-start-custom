@@ -6,3 +6,6 @@ dist
 
 # OSX files
 .DS_Store
+
+# tilde files
+*~
